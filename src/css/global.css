@@ -1,0 +1,75 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f9;
+  margin:0;
+}
+
+.container{
+  width:800px;
+  margin:40px auto;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, select{
+  padding:8px;
+  margin-right:10px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+button{
+  padding:8px 14px;
+  border:none;
+  background:#3b82f6;
+  color:white;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#2563eb;
+}
+
+.card canvas {
+  max-width: 500px;
+  margin: auto;
+}
+
+.transaction{
+  display:flex;
+  justify-content:space-between;
+  padding:10px 0;
+  border-bottom:1px solid #eee;
+}
+
+.transaction span{
+  flex:1;
+}
+
+.transaction button{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  cursor:pointer;
+}
+
+.clear-btn{
+  background:#ef4444;
+}
+
+.clear-btn:hover{
+  background:#dc2626;
+}
